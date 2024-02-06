@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Chronicle Display;
+  src: url(ChronicleDisplay-ExtraLight.woff2);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Chronicle Display;
+  src: url(ChronicleDisplay-Light.woff2);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Chronicle Display;
+  src: url(ChronicleDisplay-Roman.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Chronicle Display;
+  src: url(ChronicleDisplay-SemiBold.woff2);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Chronicle Display;
+  src: url(ChronicleDisplay-Bold.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Chronicle Display;
+  src: url(ChronicleDisplay-Black.woff2);
+  font-weight: 900;
+}

@@ -1,0 +1,138 @@
+#main_screen {
+  height: 1200px;
+  background: linear-gradient(330deg, rgba(11, 29, 38, 0) 31%, #0B1D26 109%);
+  margin-top: calc(-8rem - 42px);
+  vertical-align: middle;
+}
+
+body {
+  background: url("../../assets/img/Background.png") no-repeat, #0B1D26;
+}
+
+#content {
+  background: linear-gradient(180deg, #0b1d2600, #0B1D26 430px);
+}
+
+#content .img_col {
+  max-width: 39%;
+}
+
+@media (max-width: 1100px) {
+  #content .row .col.img_col {
+    max-width: 70%;
+    flex: 0 0 auto;
+    margin: 0 auto 80px;
+    order: -1;
+  }
+}
+
+.img_col img {
+  width: inherit;
+}
+
+#content .row {
+  width: 1400px;
+  max-width: 85vw;
+  margin-bottom: 200px;
+}
+
+.col {
+  padding: 0;
+}
+
+#index {
+  max-width: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+  filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.2));
+}
+
+#slider {
+  height: 60px;
+  width: 3px;
+  background-color: #ffffff;
+}
+
+#progress_container.fixed-pc {
+  position: fixed;
+  top: 60px;
+}
+
+#progress_container a {
+  text-shadow: 0 0 30px #0b1d26;
+}
+
+#content .img_col:not(:first-child) {
+  margin-left: 30px;
+}
+
+@media (max-width: 1450px) {
+  #content .text_col div {
+    margin-left: 10vw;
+  }
+}
+
+@media (max-width: 1100px) {
+  #content .text_col div {
+    max-width: none;
+    margin-left: 5vw;
+  }
+}
+
+@media (max-width: 1199px) {
+  h6 {
+    transform: none;
+    padding-top: 26px;
+  }
+}
+
+.hero_text a {
+  width: fit-content;
+  margin: auto;
+}
+
+header .navbar .navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+}
+
+@media (max-width: 600px) {
+  h3 {
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 50px;
+    line-height: 62px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #content .row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  #main_screen .row {
+    margin: auto 5vw;
+  }
+}
+
+footer .col#Follow {
+  align-items: end;
+  max-width: 100%;
+  margin: 0 auto 70px;
+}
+
